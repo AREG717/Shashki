@@ -1,0 +1,42 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.square {
+  width: 12.5%;
+  height: 50px;
+}
+
+.white {
+  background-color: #d4d4d4;
+}
+
+.green {
+  background-color: #43a43c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blackFigure{
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.whiteFigure{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
